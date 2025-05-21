@@ -27,13 +27,13 @@ For each captured packet:
 ## Example output
 
 TCP  | 192.168.1.10 -> 172.217.6.78 </br>
-UDP  | 192.168.1.10 -> 8.8.8.8 <\br>
-ICMP | 192.168.1.10 -> 192.168.1.1 <\br>
+UDP  | 192.168.1.10 -> 8.8.8.8 </br>
+ICMP | 192.168.1.10 -> 192.168.1.1 </br>
 
-Packet Counts by Protocol:<\br>
-TCP:  6<\br>
-UDP:  3<\br>
-ICMP: 1<\br>
+Packet Counts by Protocol:</br>
+TCP:  6 </br>
+UDP:  3 </br>
+ICMP: 1 </br>
 
 ---
 
