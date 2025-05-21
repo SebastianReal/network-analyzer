@@ -26,9 +26,9 @@ For each captured packet:
 
 ## Example output
 
-TCP  | 192.168.1.10 -> 172.217.6.78
-UDP  | 192.168.1.10 -> 8.8.8.8
-ICMP | 192.168.1.10 -> 192.168.1.1
+TCP  | 192.168.1.10 -> 172.217.6.78 /n
+UDP  | 192.168.1.10 -> 8.8.8.8 /n
+ICMP | 192.168.1.10 -> 192.168.1.1/n
 
 Packet Counts by Protocol:
 TCP:  6
