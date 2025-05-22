@@ -1,23 +1,4 @@
 
-# What exactly is a network packet?
-# A network packet is a small unit of data used to transmit information over a network. 
-# At Layer 3, it includes IP header details such as source and destination addresses, and it may also contain transport layer data 
-# like TCP/UDP headers and application payloads.
-
-# What kind of information do packets carry that would be useful to analyze?
-# Packets carry IP addresses, ports, protocols (TCP, UDP, ICMP), payload sizes, and flags (like SYN/ACK).
-# Analyzing this can reveal who’s talking to whom, which protocols are in use, and whether suspicious traffic is present.
-
-# How does a computer “listen” to network traffic? Are there Python libraries for that?
-# A computer can use a network interface in promiscuous mode to capture all packets on the network. 
-# In Python, libraries like Scapy or pyshark allow sniffing and analyzing packets.
-
-# Should the tool display live output or save results for later?
-#The tool will show the results and save  it in a document with the timestamp
-
-# What is gonna be shown
-# Ip source Ip destiny, port, protocol, size of the packege 
-
 #LIBRARY Scrapy
 # ACTIVATE VIERTUAAL ENVIROMENT .\venv\Scripts\Activate.ps1
 
